@@ -1,0 +1,33 @@
+{
+  "name": "kaunis-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.10.5",
+    "@strapi/plugin-users-permissions": "4.10.5",
+    "@strapi/plugin-i18n": "4.10.5",
+    "better-sqlite3": "8.0.1",
+    "cloudinary": "^1.35.0",
+    "pg": "^8.10.0",
+    "pg-connection-string": "^2.5.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "858f2c6c-6566-4e4d-8454-0eb5999218f8"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
