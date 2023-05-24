@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pages_small_double_images",
+  "info": {
+    "displayName": "Small Double Images"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

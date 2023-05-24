@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_pages_small_images",
+  "info": {
+    "displayName": "Small Image"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "BigImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Detail": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pages_full_image_paddeds",
+  "info": {
+    "displayName": "Full Image Padded"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

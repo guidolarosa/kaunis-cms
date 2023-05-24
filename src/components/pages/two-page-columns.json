@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pages_two_page_columns",
+  "info": {
+    "displayName": "Two Page Columns"
+  },
+  "options": {},
+  "attributes": {
+    "BigImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "DoubleImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

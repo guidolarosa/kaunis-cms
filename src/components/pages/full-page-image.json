@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pages_full_page_images",
+  "info": {
+    "displayName": "Full Page Image"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

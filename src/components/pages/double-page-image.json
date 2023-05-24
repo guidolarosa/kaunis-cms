@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pages_double_page_images",
+  "info": {
+    "displayName": "Double Page Image"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
