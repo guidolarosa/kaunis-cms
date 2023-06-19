@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Project"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,10 +16,6 @@
       "type": "string",
       "required": true,
       "maxLength": 80
-    },
-    "Summary": {
-      "type": "text",
-      "required": true
     },
     "Slug": {
       "type": "uid",
@@ -37,6 +34,9 @@
         "pages.small-double-images"
       ],
       "required": true
+    },
+    "Summary": {
+      "type": "text"
     }
   }
 }
