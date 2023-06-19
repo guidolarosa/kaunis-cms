@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_pages_small_images",
+  "collectionName": "components_page_layout_3s",
   "info": {
-    "displayName": "Small Image"
+    "displayName": "Layout 3"
   },
   "options": {},
   "attributes": {
-    "Image": {
+    "SmallImage": {
       "allowedTypes": [
         "images"
       ],
@@ -13,7 +13,7 @@
       "multiple": false,
       "required": true
     },
-    "BigImage": {
+    "LargeImage": {
       "allowedTypes": [
         "images"
       ],
@@ -21,7 +21,7 @@
       "multiple": false,
       "required": true
     },
-    "Detail": {
+    "Copy": {
       "type": "richtext"
     }
   }

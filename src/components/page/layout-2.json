@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_layout_2s",
+  "info": {
+    "displayName": "Layout 2"
+  },
+  "options": {},
+  "attributes": {
+    "LargeImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "SmallImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Copy": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

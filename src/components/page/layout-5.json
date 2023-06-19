@@ -1,16 +1,16 @@
 {
-  "collectionName": "components_pages_small_double_images",
+  "collectionName": "components_page_layout_5s",
   "info": {
-    "displayName": "Small Double Images"
+    "displayName": "Layout 5"
   },
   "options": {},
   "attributes": {
-    "Images": {
+    "FullSizeImage": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": true
     }
   }

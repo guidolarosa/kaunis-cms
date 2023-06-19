@@ -24,15 +24,7 @@
     },
     "Pages": {
       "type": "dynamiczone",
-      "components": [
-        "pages.small-image",
-        "pages.full-page-image",
-        "pages.two-small-images-and-big-image",
-        "pages.two-page-columns",
-        "pages.full-image-padded",
-        "pages.double-page-image",
-        "pages.small-double-images"
-      ],
+      "components": [],
       "required": true
     },
     "Summary": {

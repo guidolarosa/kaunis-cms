@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_layout_1s",
+  "info": {
+    "displayName": "Layout 1"
+  },
+  "options": {},
+  "attributes": {
+    "SmallImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "LargeImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Copy": {
+      "type": "richtext"
+    }
+  }
+}

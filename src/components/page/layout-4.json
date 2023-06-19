@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_layout_4s",
+  "info": {
+    "displayName": "Layout 4"
+  },
+  "options": {},
+  "attributes": {
+    "SmallImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "LargeImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Copy": {
+      "type": "richtext"
+    }
+  }
+}

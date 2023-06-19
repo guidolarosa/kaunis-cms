@@ -1,19 +1,18 @@
 {
-  "collectionName": "components_pages_two_page_columns",
+  "collectionName": "components_page_layout_6s",
   "info": {
-    "displayName": "Two Page Columns"
+    "displayName": "Layout 6"
   },
   "options": {},
   "attributes": {
-    "BigImage": {
+    "ImageGroup1": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false,
-      "required": true
+      "multiple": true
     },
-    "DoubleImage": {
+    "ImageGroup2": {
       "allowedTypes": [
         "images"
       ],
