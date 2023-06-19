@@ -24,7 +24,14 @@
     },
     "Pages": {
       "type": "dynamiczone",
-      "components": [],
+      "components": [
+        "page.layout-1",
+        "page.layout-2",
+        "page.layout-3",
+        "page.layout-4",
+        "page.layout-5",
+        "page.layout-6"
+      ],
       "required": true
     },
     "Summary": {
