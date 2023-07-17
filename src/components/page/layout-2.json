@@ -1,29 +1,33 @@
 {
   "collectionName": "components_page_layout_2s",
   "info": {
-    "displayName": "Layout 2"
+    "displayName": "Layout 2",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "LargeImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "SmallImages": {
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "SmallImages": {
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Copy": {
       "type": "richtext",
       "required": true
+    },
+    "SmallCopy": {
+      "type": "string"
     }
   }
 }

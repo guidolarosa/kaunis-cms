@@ -1,28 +1,36 @@
 {
   "collectionName": "components_page_layout_3s",
   "info": {
-    "displayName": "Layout 3"
+    "displayName": "Layout 3",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "SmallImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "LargeImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Copy": {
       "type": "richtext"
+    },
+    "Pallete": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
