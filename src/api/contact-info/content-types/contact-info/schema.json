@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-info",
     "pluralName": "contact-infos",
-    "displayName": "Contact Info"
+    "displayName": "Contact Info",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,12 +13,27 @@
   "pluginOptions": {},
   "attributes": {
     "Image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string",
       "required": true
+    },
+    "Address": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Phone": {
+      "type": "string"
     }
   }
 }
